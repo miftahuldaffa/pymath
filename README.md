@@ -7,6 +7,7 @@ PyMath is a Mathematic project in python script
 - [x] pengurangan
 - [x] perkalian
 - [x] pembagian
+- [x] persentase
 - [x] pangkat 2
 - [x] pangkat 3
 - [x] bangun datar
