@@ -43,14 +43,17 @@ def awal():
     print (b+"  ["+w+"06"+b+"] "+w+"Pangkat Dua          ")
     print (r+"  ["+w+"00"+r+"] "+w+"Tentang              "+r+"["+w+"99"+r+"] "+w+"Keluar")
 
-'''
-Coded  : @m_d4fv
-Author : Dfv47
-Team   : Black Coder Crush
-Phone  : 6282223108828
-Email  : daffamfthhsn21@gmail.com
-Thanks : ZoneExploiter, CytoXploit
-'''
+def tentang():
+    os.system('clear')
+    banner()
+    print (b+"  * "+w+"Mathematic project in python script ")
+    print (b+'\n  ['+w+'+'+b+'] '+w+'Coded  '+b+':'+w+' @m_d4fv')
+    print (b+'  ['+w+'+'+b+'] '+w+'Author '+b+':'+w+' Dfv47')
+    print (b+'  ['+w+'+'+b+'] '+w+'Team   '+b+':'+w+' Black Coder Crush')
+    print (b+'  ['+w+'+'+b+'] '+w+'Phone  '+b+':'+w+' 6282223108828')
+    print (b+'  ['+w+'+'+b+'] '+w+'Email  '+b+':'+w+' daffamfthhsn21@gmail.com')
+    print (b+'  ['+w+'+'+b+'] '+w+'Thanks '+b+':'+w+' ZoneExploiter, CytoXploit')
+
 
 def main():
     try:
@@ -79,6 +82,10 @@ def main():
             prima()
         elif daf == '10' :
             bilangan()
+        elif daf == '99' :
+            exit()
+        elif daf == '00' :
+            tentang()
         else:
             if daf [0:4] == '':
                     print ("")
