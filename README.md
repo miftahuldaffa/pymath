@@ -23,7 +23,7 @@ $ cd pymath
 $ python3 pymath.py
 ```
 # [ Screenshot ]
-<img src="img/math.py" />
+<img src="img/math.jpg" />
 
 # [ Thanks to]
 https://github.com/md4fv<br>
